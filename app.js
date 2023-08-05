@@ -31,10 +31,10 @@ app.post("/",function(req,res){
         ]
     };
     var jsonData=JSON.stringify(data);
-    const url="https://us17.api.mailchimp.com/3.0/lists/05123cf6a5";
+    const url="";
     const options={
         method:"POST",
-        auth:"kshaunish1:ff7cdb3310b697b548b0e33f7ea46e37-us17"
+        auth:""
     }
     const request=https.request(url,options,function(response){
         response.on("data",function(data){
